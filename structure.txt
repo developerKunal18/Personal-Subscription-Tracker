@@ -1,0 +1,23 @@
+Features
+- Add, view, edit, and delete subscriptions.
+- Record subscription name, provider, cost, and billing cycle.
+- Track next payment dates.
+- Identify subscriptions due within the next seven days.
+- Calculate monthly and yearly subscription costs.
+- Track active and cancelled subscriptions.
+- Search subscriptions by name or provider.
+- Generate spending reports.
+
+1. Project structure
+Personal-Subscription-Tracker/
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── subscription_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── data/
+    └── subscriptions.json
